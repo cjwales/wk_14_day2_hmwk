@@ -33,7 +33,7 @@ export class ShipContainer extends Component {
 
     handleDelete(id) {
         const request = new Request();
-        const url = '/api/ships' + id;
+        const url = '/api/ships/' + id;
         request.delete(url)
         .then( () => {
             window.location = '/ships'
