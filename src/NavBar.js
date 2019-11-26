@@ -22,6 +22,9 @@ const NavBar = (props) => {
         <li className="navLink">
           <Link to="/raids" >Raids</Link>
         </li>
+        <li className="navLink">
+          <Link to="/raids/new">Create Raid</Link>
+        </li>
 
       </ul>
     </header>
